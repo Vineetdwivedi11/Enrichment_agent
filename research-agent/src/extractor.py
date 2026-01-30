@@ -4,7 +4,7 @@ import json
 from typing import Dict, Any
 from anthropic import Anthropic
 from .config import settings
-from .models import PromptTemplate, ExtractionSchema, WebsiteContent
+from .models import PromptTemplate, ExtractionSchema, WebsiteData
 
 
 class LLMExtractor:
@@ -17,7 +17,7 @@ class LLMExtractor:
     
     def extract(
         self,
-        content: WebsiteContent,
+        content: WebsiteData,
         prompt_template: PromptTemplate,
         schema: ExtractionSchema,
         **template_vars

@@ -7,42 +7,6 @@ from pydantic import BaseModel, Field, ConfigDict
 import json
 
 
-class WebhookEvent(BaseModel):
-    """Close.io webhook event."""
-    event: dict
-    organization_id: str
-
-
-class EmailOpenEvent(BaseModel):
-    """Email open event details."""
-    email_id: str
-    lead_id: str
-    lead_name: str
-    subject: str
-    recipient: str
-    opens_count: int
-    opened_at: datetime
-    
-    def to_dict(self) -> dict:
-        """Convert to dictionary."""
-        return {
-            "email_id": self.email_id,
-            "lead_id": self.lead_id,
-            "lead_name": self.lead_name,
-            "subject": self.subject,
-            "recipient": self.recipient,
-            "opens_count": self.opens_count,
-            "opened_at": self.opened_at.isoformat()
-        }
-
-
-class NotificationRecord(BaseModel):
-    """Record of sent notification."""
-    email_id: str
-    notified_at: datetime
-    lead_name: str
-    subject: str
-
 
 class ExtractionSchema(BaseModel):
     """Schema definition for data extraction."""
@@ -114,10 +78,53 @@ class EnrichmentResult(BaseModel):
         }
 
 
-class WebsiteContent(BaseModel):
-    """Scraped website content."""
+class WebsiteData(BaseModel):
+    """Scraped website data."""
     url: str
     title: Optional[str] = None
-    markdown: str
+    description: Optional[str] = None
+    content: Optional[str] = None
+    key_points: List[str] = []
+    pages_scraped: List[str] = []
     metadata: Dict[str, Any] = {}
     scraped_at: datetime = Field(default_factory=datetime.now)
+
+
+class LinkedInCompanyData(BaseModel):
+    """LinkedIn company profile data."""
+    name: Optional[str] = None
+    industry: Optional[str] = None
+    company_size: Optional[str] = None
+    headquarters: Optional[str] = None
+    founded: Optional[str] = None
+    specialties: List[str] = []
+    description: Optional[str] = None
+    website: Optional[str] = None
+    employee_count: Optional[int] = None
+    source: str = "bright_data"  # bright_data, apify, or joeyism
+
+
+class LinkedInPost(BaseModel):
+    """LinkedIn post data."""
+    post_url: Optional[str] = None
+    author: Optional[str] = None
+    content: Optional[str] = None
+    engagement: Dict[str, int] = {}
+    published_at: Optional[datetime] = None
+    source: str = "bright_data"  # bright_data or apify
+
+
+class ProspectResearch(BaseModel):
+    """Complete research data for a prospect."""
+    company_name: str
+    website_url: Optional[str] = None
+    linkedin_url: Optional[str] = None
+    website_data: Optional[WebsiteData] = None
+    linkedin_company_data: Optional[LinkedInCompanyData] = None
+    linkedin_posts: List[LinkedInPost] = []
+    timestamp: datetime
+    notes: Optional[str] = None
+    
+    def to_dict(self) -> Dict[str, Any]:
+        """Convert to dictionary for JSON serialization."""
+        return self.model_dump()

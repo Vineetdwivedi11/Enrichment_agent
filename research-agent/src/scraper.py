@@ -3,7 +3,7 @@
 from typing import Optional
 import httpx
 from .config import settings
-from .models import WebsiteContent
+from .models import WebsiteData
 
 
 class FirecrawlScraper:
@@ -16,7 +16,7 @@ class FirecrawlScraper:
         if not self.api_key:
             raise ValueError("FIRECRAWL_API_KEY not set")
     
-    def scrape_url(self, url: str) -> WebsiteContent:
+    def scrape_url(self, url: str) -> WebsiteData:
         """Scrape a single URL."""
         headers = {
             "Authorization": f"Bearer {self.api_key}",

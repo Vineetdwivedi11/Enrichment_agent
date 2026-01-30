@@ -14,7 +14,7 @@ class Settings(BaseSettings):
     
     # Enrichment Agent settings
     FIRECRAWL_API_KEY: str = os.getenv("FIRECRAWL_API_KEY", "")
-    ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
+    ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "") 
     FIRECRAWL_API_URL: str = "https://api.firecrawl.dev/v1"
     ANTHROPIC_MODEL: str = os.getenv("ANTHROPIC_MODEL", "claude-sonnet-4-20250514")
     
