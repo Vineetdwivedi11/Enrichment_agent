@@ -11,7 +11,12 @@ from rich.table import Table
 from src.config import settings
 from src.models import PromptTemplate, ExtractionSchema, EnrichmentResult
 from src.scraper import FirecrawlScraper
+from src.simple_scraper import SimpleScraper
 from src.extractor import LLMExtractor
+from src.models import WebsiteData
+from src.linkedin_scraper import LinkedInScraper
+from src.google_sheets import GoogleSheetsExporter
+
 
 app = typer.Typer(help="Enrichment Agent - Extract structured data from websites")
 console = Console()
@@ -130,10 +135,15 @@ def enrich(
         console.print(f"[green]✓[/green] Loaded prompt: {prompt_template.name}")
         
         task = progress.add_task(f"Scraping {url}...", total=None)
-        scraper = FirecrawlScraper()
+        scraper = None
+        if settings.USE_FREE_SCRAPER or not settings.FIRECRAWL_API_KEY:
+            scraper = SimpleScraper()
+            console.print("[dim]Using SimpleScraper (Free)[/dim]")
+        else:
+            scraper = FirecrawlScraper()
         
         try:
-            website_content = scraper.scrape_url(url)
+            website_content = scraper.scrape_website(url)
             progress.update(task, completed=True)
             console.print(f"[green]✓[/green] Scraped website ({len(website_content.markdown)} chars)")
         except Exception as e:
@@ -221,7 +231,12 @@ def batch(
         prompt_file = settings.PROMPTS_DIR / f"{prompt}.md"
     prompt_template = PromptTemplate.from_file(str(prompt_file))
     
-    scraper = FirecrawlScraper()
+    scraper = None
+    if settings.USE_FREE_SCRAPER or not settings.FIRECRAWL_API_KEY:
+        scraper = SimpleScraper()
+        console.print("[dim]Using SimpleScraper (Free)[/dim]")
+    else:
+        scraper = FirecrawlScraper()
     extractor = LLMExtractor()
     
     results = []
@@ -233,7 +248,7 @@ def batch(
         console.print(f"[{idx}/{len(urls_data)}] Processing: {name}")
         
         try:
-            website_content = scraper.scrape_url(url)
+            website_content = scraper.scrape_website(url)
             extracted_data = extractor.extract(
                 website_content,
                 prompt_template,

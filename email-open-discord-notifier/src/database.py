@@ -93,8 +93,6 @@ engine = create_async_engine(
     settings.DATABASE_URL,
     echo=settings.DEBUG,
     pool_pre_ping=True,  # Verify connections before use
-    pool_size=10,  # Connection pool
-    max_overflow=20  # Allow extra connections
 )
 
 # Create async session factory

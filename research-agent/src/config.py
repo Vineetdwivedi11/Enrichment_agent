@@ -2,6 +2,7 @@
 
 import os
 from pathlib import Path
+from typing import Optional
 from dotenv import load_dotenv
 from pydantic_settings import BaseSettings
 
@@ -11,6 +12,7 @@ load_dotenv()
 class Settings(BaseSettings):
     """Application settings."""
     
+    # Enrichment Agent settings
     FIRECRAWL_API_KEY: str = os.getenv("FIRECRAWL_API_KEY", "")
     ANTHROPIC_API_KEY: str = os.getenv("ANTHROPIC_API_KEY", "")
     FIRECRAWL_API_URL: str = "https://api.firecrawl.dev/v1"
@@ -22,6 +24,10 @@ class Settings(BaseSettings):
     
     REQUEST_TIMEOUT: int = 60
     MAX_RETRIES: int = 3
+    
+    # Minimal Cost / Open Source Settings
+    USE_JOEYISM_FALLBACK: bool = os.getenv("USE_JOEYISM_FALLBACK", "true").lower() == "true"
+    USE_FREE_SCRAPER: bool = os.getenv("USE_FREE_SCRAPER", "true").lower() == "true"
     
     class Config:
         env_file = ".env"

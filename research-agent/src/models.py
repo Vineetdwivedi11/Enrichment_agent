@@ -1,9 +1,47 @@
-"""Data models for Enrichment Agent."""
+"""Data models for Email Open Discord Notifier and Enrichment Agent."""
 
-from typing import Dict, Any, List, Optional
 from datetime import datetime
-from pydantic import BaseModel, Field
+from typing import Optional, Dict, Any, List
+
+from pydantic import BaseModel, Field, ConfigDict
 import json
+
+
+class WebhookEvent(BaseModel):
+    """Close.io webhook event."""
+    event: dict
+    organization_id: str
+
+
+class EmailOpenEvent(BaseModel):
+    """Email open event details."""
+    email_id: str
+    lead_id: str
+    lead_name: str
+    subject: str
+    recipient: str
+    opens_count: int
+    opened_at: datetime
+    
+    def to_dict(self) -> dict:
+        """Convert to dictionary."""
+        return {
+            "email_id": self.email_id,
+            "lead_id": self.lead_id,
+            "lead_name": self.lead_name,
+            "subject": self.subject,
+            "recipient": self.recipient,
+            "opens_count": self.opens_count,
+            "opened_at": self.opened_at.isoformat()
+        }
+
+
+class NotificationRecord(BaseModel):
+    """Record of sent notification."""
+    email_id: str
+    notified_at: datetime
+    lead_name: str
+    subject: str
 
 
 class ExtractionSchema(BaseModel):
@@ -52,6 +90,8 @@ class PromptTemplate(BaseModel):
 
 class EnrichmentResult(BaseModel):
     """Result of enrichment process."""
+    model_config = ConfigDict(protected_namespaces=())
+    
     company_name: str
     url: str
     schema_used: str
@@ -59,7 +99,7 @@ class EnrichmentResult(BaseModel):
     extracted_data: Dict[str, Any]
     raw_content: Optional[str] = None
     enriched_at: datetime = Field(default_factory=datetime.now)
-    model_used: str
+    model_used: str = Field(description="The AI model used for extraction")
     
     def to_json(self) -> Dict[str, Any]:
         """Convert to JSON-serializable dict."""

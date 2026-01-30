@@ -16,11 +16,11 @@ import typer
 from rich.console import Console
 from rich.progress import Progress, SpinnerColumn, TextColumn
 
-from src.config import settings
-from src.firecrawl_scraper import FirecrawlScraper
-from src.linkedin_scraper import LinkedInScraper
-from src.google_sheets import GoogleSheetsExporter
-from src.models import ProspectResearch
+from config import settings
+from firecrawl_scraper import FirecrawlScraper
+from linkedin_scraper import LinkedInScraper
+from google_sheets import GoogleSheetsExporter
+from models import ProspectResearch
 
 app = typer.Typer(help="Research Agent - Automated Prospect Intelligence Tool")
 console = Console()
