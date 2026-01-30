@@ -1,0 +1,14 @@
+{
+  "name": "mobile",
+  "description": "Mobile presence",
+  "fields": {
+    "ios_app": {
+      "type": "boolean",
+      "default": false
+    },
+    "android_app": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

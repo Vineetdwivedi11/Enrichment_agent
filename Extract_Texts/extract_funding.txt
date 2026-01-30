@@ -1,0 +1,38 @@
+Extract funding, investment, and financial growth signals.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. FUNDING ROUNDS
+   - Round types (Seed, Series A/B/C/D)
+   - Amounts raised
+   - Dates
+   - Lead investors
+   - Participating investors
+
+2. TOTAL FUNDING
+   - Total amount
+   - Number of rounds
+   - Most recent round
+
+3. INVESTORS
+   - Investor names
+   - Investor types (VC, angel, corporate)
+   - Notable investors
+   - Board seats
+
+4. VALUATION
+   - Company valuation
+   - Unicorn status
+   - Valuation growth
+
+5. FINANCIAL METRICS
+   - ARR/MRR disclosed
+   - Revenue growth
+   - Profitability
+   - Customer metrics
+
+Extract funding information.

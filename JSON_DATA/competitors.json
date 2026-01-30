@@ -1,0 +1,25 @@
+{
+  "name": "competitors",
+  "description": "Competitive landscape",
+  "fields": {
+    "competitors_mentioned": {
+      "type": "array",
+      "description": "Direct competitors",
+      "default": []
+    },
+    "competitive_advantages": {
+      "type": "array",
+      "description": "Claimed advantages",
+      "default": []
+    },
+    "market_position": {
+      "type": "string",
+      "description": "Market position"
+    },
+    "alternatives": {
+      "type": "array",
+      "description": "Alternative solutions",
+      "default": []
+    }
+  }
+}

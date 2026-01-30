@@ -1,0 +1,14 @@
+{
+  "name": "marketing_strategy",
+  "description": "Marketing strategy",
+  "fields": {
+    "positioning": {
+      "type": "string",
+      "description": "Brand positioning"
+    },
+    "channels": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

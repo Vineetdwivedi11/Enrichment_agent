@@ -1,0 +1,26 @@
+{
+  "name": "integrations",
+  "description": "Integrations and partnerships",
+  "fields": {
+    "native_integrations": {
+      "type": "array",
+      "description": "Built-in integrations",
+      "default": []
+    },
+    "api_available": {
+      "type": "boolean",
+      "description": "API available",
+      "default": false
+    },
+    "integration_categories": {
+      "type": "array",
+      "description": "Categories of integrations",
+      "default": []
+    },
+    "marketplace": {
+      "type": "boolean",
+      "description": "Integration marketplace exists",
+      "default": false
+    }
+  }
+}

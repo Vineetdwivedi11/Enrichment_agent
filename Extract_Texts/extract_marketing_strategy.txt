@@ -1,0 +1,47 @@
+Extract marketing strategies, brand positioning, and demand generation.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. BRAND POSITIONING
+   - Positioning statement
+   - Category positioning
+   - Brand personality
+   - Tone of voice
+   - Value proposition
+
+2. MARKETING CHANNELS
+   - Content marketing
+   - Email marketing
+   - Social media
+   - Paid advertising
+   - SEO/organic
+   - Video marketing
+   - Webinars
+   - Events
+
+3. CONTENT STRATEGY
+   - Blog presence
+   - Content types
+   - Publishing frequency
+   - Content quality
+   - SEO optimization
+
+4. DEMAND GENERATION
+   - Lead magnets
+   - Gated content
+   - Webinar funnels
+   - Free trials
+   - Nurture programs
+
+5. SOCIAL MEDIA
+   - LinkedIn activity
+   - Twitter presence
+   - Facebook page
+   - Instagram account
+   - YouTube channel
+
+Extract marketing strategy information.

@@ -1,0 +1,39 @@
+{
+  "name": "pricing_info",
+  "description": "Pricing and product tier information",
+  "fields": {
+    "pricing_model": {
+      "type": "string",
+      "description": "Overall pricing model",
+      "required": true
+    },
+    "has_free_tier": {
+      "type": "boolean",
+      "description": "Whether a free tier is available",
+      "required": true
+    },
+    "free_trial_days": {
+      "type": "integer",
+      "description": "Number of days for free trial"
+    },
+    "starter_tier_price": {
+      "type": "string",
+      "description": "Price of the lowest paid tier"
+    },
+    "enterprise_tier_available": {
+      "type": "boolean",
+      "description": "Whether enterprise tier is available",
+      "default": false
+    },
+    "billing_frequency": {
+      "type": "array",
+      "description": "Available billing frequencies",
+      "default": []
+    },
+    "payment_methods": {
+      "type": "array",
+      "description": "Accepted payment methods",
+      "default": []
+    }
+  }
+}

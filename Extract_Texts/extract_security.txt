@@ -1,0 +1,51 @@
+Extract security measures, compliance certifications, and data protection practices.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. COMPLIANCE CERTIFICATIONS
+   - SOC 2 Type I/II
+   - ISO 27001
+   - HIPAA
+   - GDPR
+   - PCI DSS
+   - FedRAMP
+   - Other certifications
+
+2. ENCRYPTION
+   - Data at rest encryption
+   - Data in transit encryption
+   - Encryption methods (AES-256)
+   - Key management
+
+3. INFRASTRUCTURE SECURITY
+   - Cloud provider security
+   - DDoS protection
+   - Firewalls
+   - Penetration testing
+   - Vulnerability management
+
+4. ACCESS & AUTHENTICATION
+   - SSO support
+   - 2FA/MFA
+   - Role-based access
+   - Password policies
+   - Session management
+
+5. DATA PRIVACY
+   - Privacy policy
+   - Data Processing Agreement
+   - Data residency options
+   - Data retention
+   - GDPR compliance
+
+6. AUDIT & MONITORING
+   - Audit logs
+   - Activity monitoring
+   - Security alerts
+   - Compliance reporting
+
+Extract security information according to the schema.

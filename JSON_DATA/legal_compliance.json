@@ -1,0 +1,13 @@
+{
+  "name": "legal_compliance",
+  "description": "Legal and regulatory",
+  "fields": {
+    "entity_type": {
+      "type": "string"
+    },
+    "regulations": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "name": "company_profile",
+  "description": "Comprehensive company profile information",
+  "fields": {
+    "company_name": {
+      "type": "string",
+      "description": "Official company name",
+      "required": true
+    },
+    "tagline": {
+      "type": "string",
+      "description": "Company tagline or slogan"
+    },
+    "description": {
+      "type": "string",
+      "description": "Brief description of what the company does",
+      "required": true
+    },
+    "industry": {
+      "type": "string",
+      "description": "Primary industry or sector",
+      "required": true
+    },
+    "founded_year": {
+      "type": "integer",
+      "description": "Year the company was founded"
+    },
+    "headquarters": {
+      "type": "string",
+      "description": "Location of company headquarters"
+    },
+    "employee_count": {
+      "type": "string",
+      "description": "Number of employees or range"
+    },
+    "company_size": {
+      "type": "string",
+      "description": "Company size category"
+    },
+    "key_products": {
+      "type": "array",
+      "description": "List of main products or services",
+      "default": []
+    },
+    "social_media": {
+      "type": "object",
+      "description": "Social media profile URLs",
+      "default": {}
+    }
+  }
+}

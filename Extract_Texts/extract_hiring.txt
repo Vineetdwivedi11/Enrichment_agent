@@ -1,0 +1,138 @@
+You are an expert at analyzing company hiring patterns and job openings to understand growth, priorities, and team structure.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+
+Analyze the website to extract hiring and recruitment information:
+
+=== WEBSITE CONTENT ===
+{{ content }}
+=== END CONTENT ===
+
+EXTRACTION GUIDELINES:
+
+1. OVERALL HIRING STATUS
+   - Total number of open positions
+   - "We're hiring!" messaging
+   - Hiring pace (slow, steady, rapid)
+   - Growth signals mentioned
+   - Team expansion plans
+   - Hiring goals stated
+
+2. DEPARTMENT BREAKDOWN
+   For each hiring department:
+   - Department name
+   - Number of open roles
+   - Seniority levels (Junior, Mid, Senior, Lead, Principal)
+   - Specific role types
+   - Priority hiring indicators
+   - New vs backfill roles
+
+3. ENGINEERING HIRING
+   - Frontend engineers
+   - Backend engineers
+   - Full-stack engineers
+   - DevOps/SRE
+   - Platform engineers
+   - Mobile developers
+   - QA/Test engineers
+   - Data engineers
+   - ML/AI engineers
+   - Security engineers
+
+4. PRODUCT & DESIGN
+   - Product managers
+   - Product designers
+   - UX researchers
+   - Design system specialists
+   - Technical writers
+
+5. SALES & REVENUE
+   - Account executives
+   - Sales development reps
+   - Customer success managers
+   - Sales engineers
+   - Regional sales roles
+
+6. MARKETING
+   - Growth marketers
+   - Content marketers
+   - Product marketers
+   - Demand generation
+   - Marketing operations
+
+7. OPERATIONS & SUPPORT
+   - Customer support
+   - Operations managers
+   - Finance roles
+   - HR/People ops
+   - Legal/Compliance
+
+8. REMOTE & LOCATION
+   - Remote-first policy
+   - Hybrid options
+   - Office-required roles
+   - Geographic restrictions
+   - Distributed team indicators
+   - Time zone preferences
+
+9. EXPERIENCE LEVELS
+   - Entry-level positions
+   - Mid-level roles
+   - Senior positions
+   - Leadership hiring
+   - Executive roles
+
+10. BENEFITS & PERKS
+    - Salary ranges (if disclosed)
+    - Equity/stock options
+    - Health insurance
+    - 401k/retirement
+    - Unlimited PTO
+    - Parental leave
+    - Learning budget
+    - Home office stipend
+    - Conference attendance
+    - Wellness programs
+
+11. COMPANY CULTURE SIGNALS
+    - Work environment description
+    - Team culture mentions
+    - Company values
+    - Mission alignment
+    - Work-life balance emphasis
+    - Diversity commitments
+    - Growth opportunities
+
+12. HIRING PROCESS
+    - Application steps
+    - Interview process described
+    - Timeline expectations
+    - Technical assessments
+    - Take-home projects
+    - Number of interview rounds
+
+13. REQUIRED SKILLS
+    - Technical skills emphasized
+    - Years of experience required
+    - Education requirements
+    - Certifications needed
+    - Domain knowledge
+    - Tool proficiency
+
+14. STRATEGIC HIRES
+    - First-of-kind roles
+    - New department creation
+    - Leadership expansion
+    - International expansion roles
+    - New product team building
+
+15. GROWTH INDICATORS
+    - "Scaling fast" language
+    - "Doubling the team" mentions
+    - Recent funding and hiring plans
+    - New office openings
+    - Department expansions
+    - Ambitious hiring goals
+
+Extract all hiring-related information according to the schema provided below.

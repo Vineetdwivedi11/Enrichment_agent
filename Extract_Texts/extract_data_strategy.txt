@@ -1,0 +1,38 @@
+Extract data strategy, analytics capabilities, and data-driven approaches.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. DATA CAPABILITIES
+   - Data collection
+   - Data processing
+   - Data volume handled
+   - Real-time processing
+
+2. ANALYTICS FEATURES
+   - Built-in analytics
+   - Custom reports
+   - Dashboards
+   - Data visualization
+
+3. BUSINESS INTELLIGENCE
+   - BI tool integrations
+   - Self-service BI
+   - KPI tracking
+   - Trend analysis
+
+4. DATA SCIENCE & ML
+   - ML models
+   - Predictive analytics
+   - AI-powered insights
+
+5. DATA GOVERNANCE
+   - Data quality
+   - Data lineage
+   - Data cataloging
+   - Access controls
+
+Extract data strategy information.

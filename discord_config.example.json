@@ -1,0 +1,22 @@
+{
+  "_comment": "Discord webhook configuration for Email Open Notifier",
+  "_description": "Configure one or more Discord webhooks for notifications",
+  
+  "webhooks": [
+    {
+      "name": "sales-team",
+      "url": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN"
+    },
+    {
+      "name": "managers",
+      "url": "https://discord.com/api/webhooks/ANOTHER_WEBHOOK_ID/ANOTHER_WEBHOOK_TOKEN"
+    }
+  ],
+  
+  "_alternative_format": "You can also use a simpler format:",
+  "_example": {
+    "default": "https://discord.com/api/webhooks/YOUR_WEBHOOK_ID/YOUR_WEBHOOK_TOKEN",
+    "sales": "https://discord.com/api/webhooks/SALES_WEBHOOK_ID/SALES_WEBHOOK_TOKEN",
+    "alerts": "https://discord.com/api/webhooks/ALERTS_WEBHOOK_ID/ALERTS_WEBHOOK_TOKEN"
+  }
+}

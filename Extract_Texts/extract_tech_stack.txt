@@ -1,0 +1,38 @@
+Extract technology stack and infrastructure information.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. PROGRAMMING LANGUAGES
+   - Backend languages
+   - Frontend languages
+   - Mobile languages
+   - Scripting languages
+
+2. FRAMEWORKS & LIBRARIES
+   - Frontend frameworks (React, Vue, Angular)
+   - Backend frameworks (Node.js, Django, Rails)
+   - Mobile frameworks (React Native, Flutter)
+
+3. DATABASES
+   - Primary databases
+   - Caching layers
+   - Data warehouses
+   - Search engines
+
+4. CLOUD & INFRASTRUCTURE
+   - Cloud providers (AWS, GCP, Azure)
+   - Infrastructure as code
+   - Container orchestration
+   - Serverless usage
+
+5. TOOLS & PLATFORMS
+   - Development tools
+   - CI/CD platforms
+   - Monitoring tools
+   - Analytics platforms
+
+Extract tech stack information according to the schema.

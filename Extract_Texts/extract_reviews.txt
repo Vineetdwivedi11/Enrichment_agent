@@ -1,0 +1,39 @@
+Extract customer reviews, ratings, and feedback signals.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. REVIEW SITES
+   - G2 rating and reviews
+   - Capterra rating and reviews
+   - Trustpilot rating
+   - App Store ratings
+   - Play Store ratings
+
+2. REVIEW BADGES
+   - G2 badges (Leader, High Performer, etc.)
+   - Capterra Shortlist
+   - Award badges
+   - Category rankings
+
+3. AGGREGATE RATINGS
+   - Overall rating (out of 5)
+   - Number of reviews
+   - Rating distribution
+
+4. SATISFACTION METRICS
+   - NPS score
+   - CSAT score
+   - Customer retention rate
+   - Referral rate
+
+5. REVIEW THEMES
+   - Most praised features
+   - Common complaints
+   - Feature requests
+   - Competitive comparisons
+
+Extract review information.

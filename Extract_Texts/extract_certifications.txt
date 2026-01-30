@@ -1,0 +1,40 @@
+Extract industry certifications, quality standards, and professional accreditations.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. ISO CERTIFICATIONS
+   - ISO 9001 (Quality)
+   - ISO 14001 (Environment)
+   - ISO 27001 (Security)
+   - ISO 27017 (Cloud Security)
+   - ISO 27018 (Cloud Privacy)
+
+2. SECURITY CERTIFICATIONS
+   - SOC 2 Type I/II
+   - SOC 3
+   - PCI DSS
+   - FedRAMP
+   - CSA STAR
+
+3. PRIVACY & DATA
+   - GDPR compliance
+   - CCPA compliance
+   - Privacy Shield
+   - Standard Contractual Clauses
+
+4. INDUSTRY-SPECIFIC
+   - HIPAA (healthcare)
+   - FINRA (financial)
+   - FERPA (education)
+
+5. ENVIRONMENTAL
+   - B Corp certification
+   - Carbon Neutral
+   - LEED certification
+   - Energy Star
+
+Extract certification information.

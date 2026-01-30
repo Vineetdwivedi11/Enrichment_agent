@@ -1,0 +1,39 @@
+Extract product vision, roadmap, and future development plans.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. PRODUCT VISION
+   - Long-term vision
+   - Product mission
+   - Future direction
+   - Strategic goals
+
+2. PUBLIC ROADMAP
+   - Roadmap available
+   - Transparency level
+   - Timeframes shown
+   - Priority signals
+
+3. UPCOMING FEATURES
+   - Feature names
+   - Descriptions
+   - Expected timeframe
+   - Status (planned, in dev, beta)
+
+4. RECENTLY RELEASED
+   - Recent launches
+   - Release notes
+   - Changelog
+   - Version updates
+
+5. BETA PROGRAMS
+   - Beta features
+   - Early access
+   - Alpha testing
+   - Preview features
+
+Extract roadmap information.

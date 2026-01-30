@@ -1,0 +1,79 @@
+Extract product features, capabilities, and unique selling propositions.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. CORE FEATURES
+   - Main product capabilities
+   - Feature categories
+   - Key functionality
+   - Core value propositions
+   - Primary use cases
+
+2. UNIQUE SELLING PROPOSITIONS
+   - What makes it different
+   - Competitive advantages
+   - Proprietary technology
+   - Exclusive capabilities
+   - Innovation claims
+
+3. TECHNICAL CAPABILITIES
+   - Performance metrics
+   - Scalability claims
+   - Platform support
+   - API capabilities
+   - Integration options
+
+4. USER EXPERIENCE
+   - Ease of use claims
+   - No-code features
+   - Templates available
+   - Customization options
+   - User interface quality
+
+5. COLLABORATION
+   - Team features
+   - Sharing capabilities
+   - Real-time collaboration
+   - Permissions system
+   - Workflow automation
+
+6. ANALYTICS & REPORTING
+   - Built-in analytics
+   - Dashboards
+   - Custom reports
+   - Data visualization
+   - Export capabilities
+
+7. MOBILE & PLATFORM
+   - Mobile apps
+   - Cross-platform
+   - Offline capabilities
+   - Browser support
+   - Desktop apps
+
+8. AI & AUTOMATION
+   - AI-powered features
+   - Machine learning
+   - Automated workflows
+   - Smart suggestions
+   - Predictive capabilities
+
+9. SECURITY FEATURES
+   - Encryption
+   - Access controls
+   - Compliance features
+   - Audit logs
+   - 2FA/SSO
+
+10. ENTERPRISE FEATURES
+    - Advanced admin
+    - Custom SLAs
+    - Dedicated support
+    - On-premise options
+    - Volume pricing
+
+Extract all product features according to the schema.

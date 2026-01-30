@@ -1,0 +1,14 @@
+{
+  "name": "certifications",
+  "description": "Certifications",
+  "fields": {
+    "iso_certs": {
+      "type": "array",
+      "default": []
+    },
+    "security_certs": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

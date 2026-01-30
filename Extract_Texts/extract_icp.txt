@@ -1,0 +1,36 @@
+Extract ideal customer profile, target audience, and buyer personas.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. TARGET MARKET
+   - B2B, B2C, or B2B2C
+   - Enterprise/mid-market/SMB
+   - Industry focus
+
+2. COMPANY SIZES
+   - Enterprise (1000+ employees)
+   - Mid-market (100-1000)
+   - Small business (10-100)
+   - Startups
+
+3. INDUSTRIES
+   - Primary industries
+   - Vertical focus
+   - Sector specialization
+
+4. BUYER PERSONAS
+   - Job titles/roles
+   - Departments
+   - Seniority levels
+   - Decision makers
+
+5. USE CASES
+   - Primary use cases
+   - Problems solved
+   - Expected outcomes
+
+Extract ICP information.

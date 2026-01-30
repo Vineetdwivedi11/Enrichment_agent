@@ -1,0 +1,39 @@
+Extract mobile app strategies, presence, and capabilities.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. APP AVAILABILITY
+   - iOS app exists
+   - Android app exists
+   - App Store links
+   - Play Store links
+
+2. APP FEATURES
+   - Core features on mobile
+   - Mobile-exclusive features
+   - Feature parity with web
+   - Offline functionality
+
+3. APP RATINGS
+   - App Store rating
+   - Play Store rating
+   - Number of reviews
+   - Download counts
+
+4. MOBILE EXPERIENCE
+   - Mobile-first strategy
+   - Responsive web
+   - Cross-device sync
+   - Push notifications
+
+5. MOBILE SECURITY
+   - Biometric login
+   - PIN/passcode
+   - Mobile encryption
+   - MDM support
+
+Extract mobile information.

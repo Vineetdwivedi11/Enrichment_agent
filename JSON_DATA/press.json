@@ -1,0 +1,26 @@
+{
+  "name": "press",
+  "description": "Press and media coverage",
+  "fields": {
+    "media_mentions": {
+      "type": "array",
+      "description": "Publications and articles",
+      "default": []
+    },
+    "awards": {
+      "type": "array",
+      "description": "Awards and recognition",
+      "default": []
+    },
+    "analyst_coverage": {
+      "type": "array",
+      "description": "Analyst reports",
+      "default": []
+    },
+    "recent_news": {
+      "type": "array",
+      "description": "Recent news items",
+      "default": []
+    }
+  }
+}

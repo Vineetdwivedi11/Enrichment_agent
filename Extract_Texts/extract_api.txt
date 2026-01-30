@@ -1,0 +1,37 @@
+Extract API offerings, developer resources, and technical documentation.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. API TYPES
+   - REST API
+   - GraphQL
+   - Webhooks
+   - WebSocket
+
+2. DOCUMENTATION
+   - Documentation URL
+   - Interactive docs
+   - Code examples
+   - Getting started guides
+
+3. SDKs
+   - Languages (Python, JS, etc.)
+   - Official vs community
+   - GitHub repos
+
+4. DEVELOPER PORTAL
+   - Portal exists
+   - API playground
+   - Sandbox environment
+   - Usage analytics
+
+5. RATE LIMITS
+   - Requests per minute/hour
+   - Tier limits
+   - Quota management
+
+Extract API information.

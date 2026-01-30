@@ -1,0 +1,25 @@
+{
+  "name": "icp",
+  "description": "Ideal customer profile",
+  "fields": {
+    "target_market": {
+      "type": "string",
+      "description": "B2B, B2C, or B2B2C"
+    },
+    "company_sizes": {
+      "type": "array",
+      "description": "Target company sizes",
+      "default": []
+    },
+    "industries": {
+      "type": "array",
+      "description": "Target industries",
+      "default": []
+    },
+    "buyer_personas": {
+      "type": "array",
+      "description": "Key buyer roles",
+      "default": []
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "funding",
+  "description": "Funding and investment",
+  "fields": {
+    "total_funding": {
+      "type": "string",
+      "description": "Total amount raised"
+    },
+    "funding_rounds": {
+      "type": "array",
+      "description": "List of funding rounds",
+      "default": []
+    },
+    "investors": {
+      "type": "array",
+      "description": "Investor names",
+      "default": []
+    },
+    "valuation": {
+      "type": "string",
+      "description": "Company valuation"
+    },
+    "funding_stage": {
+      "type": "string",
+      "description": "Current funding stage"
+    }
+  }
+}

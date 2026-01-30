@@ -1,0 +1,42 @@
+Extract contact information and communication channels.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. EMAIL ADDRESSES
+   - General/info email
+   - Sales email
+   - Support email
+   - Press/media email
+   - Security email
+   - Legal email
+
+2. PHONE NUMBERS
+   - Main phone
+   - Sales phone
+   - Support phone
+   - International numbers
+
+3. PHYSICAL ADDRESSES
+   - Headquarters address
+   - Office locations
+   - Mailing address
+
+4. SOCIAL MEDIA
+   - LinkedIn URL
+   - Twitter/X URL
+   - Facebook URL
+   - Instagram URL
+   - YouTube URL
+   - GitHub URL
+
+5. OTHER CONTACT
+   - Contact form URL
+   - Live chat availability
+   - Support portal URL
+   - API documentation URL
+
+Extract contact details according to the schema.

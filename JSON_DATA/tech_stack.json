@@ -1,0 +1,41 @@
+{
+  "name": "tech_stack",
+  "description": "Technology stack and infrastructure information",
+  "fields": {
+    "programming_languages": {
+      "type": "array",
+      "description": "Programming languages used",
+      "default": []
+    },
+    "frontend_frameworks": {
+      "type": "array",
+      "description": "Frontend frameworks",
+      "default": []
+    },
+    "backend_frameworks": {
+      "type": "array",
+      "description": "Backend frameworks",
+      "default": []
+    },
+    "databases": {
+      "type": "array",
+      "description": "Databases used",
+      "default": []
+    },
+    "cloud_providers": {
+      "type": "array",
+      "description": "Cloud platforms",
+      "default": []
+    },
+    "mobile_platforms": {
+      "type": "array",
+      "description": "Mobile app platforms",
+      "default": []
+    },
+    "apis_provided": {
+      "type": "boolean",
+      "description": "Whether the company provides APIs",
+      "default": false
+    }
+  }
+}

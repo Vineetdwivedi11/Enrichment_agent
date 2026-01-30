@@ -1,0 +1,14 @@
+{
+  "name": "onboarding",
+  "description": "Customer onboarding",
+  "fields": {
+    "program_exists": {
+      "type": "boolean",
+      "default": false
+    },
+    "resources": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

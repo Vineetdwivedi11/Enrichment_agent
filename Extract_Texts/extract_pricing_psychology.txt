@@ -1,0 +1,43 @@
+Extract pricing psychology, monetization strategies, and pricing tactics.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. PRICING TRANSPARENCY
+   - Prices displayed openly
+   - Contact for pricing
+   - Quote required
+   - Pricing calculator
+
+2. PSYCHOLOGICAL TACTICS
+   - Charm pricing ($9.99)
+   - Anchor pricing
+   - Decoy pricing
+   - Bundle pricing
+
+3. PRICING PAGE DESIGN
+   - Number of tiers
+   - Recommended tier
+   - Most popular badge
+   - Feature comparison
+
+4. FREEMIUM
+   - Free tier available
+   - Free tier limits
+   - Upgrade triggers
+
+5. FREE TRIAL
+   - Trial length (days)
+   - Credit card required
+   - Trial features
+   - Conversion tactics
+
+6. ANNUAL VS MONTHLY
+   - Annual discount %
+   - Default selection
+   - Savings highlighted
+
+Extract pricing psychology information.

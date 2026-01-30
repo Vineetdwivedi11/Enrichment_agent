@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  research-agent:
+    build: .
+    image: research-agent:latest
+    container_name: research-agent
+    env_file:
+      - .env
+    volumes:
+      - ./output:/app/output
+      - ./credentials.json:/app/credentials.json:ro
+    command: --help

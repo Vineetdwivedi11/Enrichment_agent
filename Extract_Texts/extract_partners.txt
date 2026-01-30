@@ -1,0 +1,41 @@
+Extract partner programs, ecosystem strategies, and channel partnerships.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. PARTNER PROGRAM TYPES
+   - Reseller/VAR program
+   - Referral partners
+   - Technology partners
+   - Consulting partners
+   - Agency partners
+
+2. PARTNER TIERS
+   - Tier structure
+   - Level names
+   - Benefits per tier
+   - Requirements
+
+3. PARTNER BENEFITS
+   - Commission structure
+   - MDF/co-marketing
+   - Lead sharing
+   - Training
+   - Portal access
+
+4. MARKETPLACE
+   - Partner marketplace
+   - Partner directory
+   - Featured partners
+   - Integration catalog
+
+5. CERTIFICATION
+   - Certification programs
+   - Training available
+   - Specializations
+   - Recertification
+
+Extract partner program information.

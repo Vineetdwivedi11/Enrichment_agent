@@ -1,0 +1,39 @@
+Extract pricing and product tier information.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. PRICING MODEL
+   - Free/Freemium/Paid
+   - Subscription/One-time
+   - Usage-based/Seat-based
+   - Enterprise custom
+
+2. FREE TIER
+   - Free tier available
+   - Free tier limitations
+   - Free trial days
+   - Credit card required
+
+3. PRICING TIERS
+   - Tier names
+   - Prices per tier
+   - Features per tier
+   - Recommended tier
+
+4. BILLING
+   - Monthly pricing
+   - Annual pricing
+   - Annual discount %
+   - Payment methods
+
+5. ENTERPRISE
+   - Custom pricing
+   - Volume discounts
+   - Minimum spend
+   - Contract terms
+
+Extract pricing information according to the schema.

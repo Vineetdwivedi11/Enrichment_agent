@@ -1,0 +1,14 @@
+{
+  "name": "events",
+  "description": "Events and community",
+  "fields": {
+    "conference": {
+      "type": "boolean",
+      "default": false
+    },
+    "community": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}

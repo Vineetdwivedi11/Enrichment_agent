@@ -1,0 +1,50 @@
+Extract sales strategies, go-to-market approaches, and revenue operations.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. SALES MODEL
+   - Self-service (PLG)
+   - Sales-led (enterprise)
+   - Hybrid approach
+   - Inside vs field sales
+
+2. SALES PROCESS SIGNALS
+   - "Book demo" prominent
+   - "Free trial" available
+   - Contact sales CTA
+   - Demo request forms
+   - Pricing transparency
+
+3. LEAD GENERATION
+   - Free trials offered
+   - Freemium model
+   - Gated content
+   - Webinars
+   - ROI calculators
+
+4. SALES ENABLEMENT
+   - Case studies for sales
+   - ROI tools
+   - Product comparisons
+   - Industry landing pages
+   - Buyer guides
+
+5. CHANNEL STRATEGY
+   - Direct sales only
+   - Reseller program
+   - Partner network
+   - Marketplace listings
+   - Affiliate program
+
+6. PRICING STRATEGY
+   - Transparent pricing
+   - Custom quotes
+   - Tiered structure
+   - Usage-based
+   - Seat-based
+
+Extract sales strategy information.

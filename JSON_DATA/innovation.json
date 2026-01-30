@@ -1,0 +1,14 @@
+{
+  "name": "innovation",
+  "description": "Innovation and R&D",
+  "fields": {
+    "rd_team": {
+      "type": "boolean",
+      "default": false
+    },
+    "patents": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

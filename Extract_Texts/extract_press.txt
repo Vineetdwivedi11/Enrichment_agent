@@ -1,0 +1,34 @@
+Extract press coverage, media mentions, news, and PR signals.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. PRESS MENTIONS
+   - Publication names
+   - Article headlines
+   - Publication dates
+   - Article topics
+   - Links
+
+2. AWARDS
+   - Award names
+   - Awarding organizations
+   - Categories
+   - Years received
+
+3. ANALYST COVERAGE
+   - Analyst firms (Gartner, Forrester, IDC)
+   - Report mentions
+   - Rankings
+   - Analyst quotes
+
+4. MEDIA MOMENTUM
+   - Coverage frequency
+   - Recent surge
+   - Publication quality
+   - Coverage breadth
+
+Extract press information.

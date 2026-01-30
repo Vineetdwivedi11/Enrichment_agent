@@ -1,0 +1,13 @@
+{
+  "name": "acquisitions",
+  "description": "M&A activity",
+  "fields": {
+    "companies_acquired": {
+      "type": "array",
+      "default": []
+    },
+    "acquisition_strategy": {
+      "type": "string"
+    }
+  }
+}

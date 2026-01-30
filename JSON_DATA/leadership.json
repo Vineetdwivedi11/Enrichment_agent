@@ -1,0 +1,24 @@
+{
+  "name": "leadership",
+  "description": "Leadership team and key personnel",
+  "fields": {
+    "executives": {
+      "type": "array",
+      "description": "List of executives with name, title, background",
+      "default": []
+    },
+    "founders": {
+      "type": "array",
+      "description": "Founder information",
+      "default": []
+    },
+    "team_size": {
+      "type": "string",
+      "description": "Overall team size"
+    },
+    "notable_background": {
+      "type": "string",
+      "description": "Notable backgrounds or credentials"
+    }
+  }
+}

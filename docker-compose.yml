@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  enrichment-agent:
+    build: .
+    image: enrichment-agent:latest
+    container_name: enrichment-agent
+    env_file:
+      - .env
+    volumes:
+      - ./prompts:/app/prompts:ro
+      - ./schemas:/app/schemas:ro
+      - ./output:/app/output
+    command: --help

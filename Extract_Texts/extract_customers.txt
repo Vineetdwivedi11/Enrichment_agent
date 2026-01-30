@@ -1,0 +1,52 @@
+Extract customer testimonials, case studies, and success stories.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. CUSTOMER TESTIMONIALS
+   - Customer name (person)
+   - Customer company
+   - Job title
+   - Direct quote (keep under 200 chars)
+   - Key benefit mentioned
+   - Problem solved
+   - Results achieved
+
+2. CASE STUDIES
+   - Customer company name
+   - Industry/sector
+   - Company size
+   - Challenge faced
+   - Solution implemented
+   - Quantified results (ROI, time saved, cost reduction, revenue increase)
+   - Implementation timeline
+   - Key features used
+
+3. LOGO WALLS & CUSTOMER LISTS
+   - Customer company names from logos
+   - Notable/recognizable brands
+   - Industry representation
+   - Enterprise vs SMB customers
+   - Customer count claims
+
+4. QUANTIFIABLE RESULTS
+   - ROI percentages
+   - Cost savings ($ or %)
+   - Time savings
+   - Efficiency gains
+   - Revenue increases
+   - Growth metrics
+   - Error reduction rates
+
+5. SOCIAL PROOF
+   - Number of customers
+   - User counts
+   - Transaction volumes
+   - Reviews/ratings mentioned
+   - Awards from customers
+   - Market share claims
+
+Extract all customer information according to the schema.

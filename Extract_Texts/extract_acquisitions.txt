@@ -1,0 +1,39 @@
+Extract merger and acquisition activity, strategic acquisitions, and corporate development.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. ACQUISITION HISTORY
+   - Companies acquired
+   - Acquisition dates
+   - Acquisition prices
+   - Rationale stated
+
+2. ACQUISITION TYPES
+   - Talent acquisitions (acqui-hires)
+   - Technology acquisitions
+   - Product acquisitions
+   - Market expansion
+
+3. INTEGRATION STATUS
+   - Fully integrated
+   - Standalone brands
+   - Integration timeline
+   - Product consolidation
+
+4. CORPORATE DEVELOPMENT
+   - Corp dev team mentioned
+   - M&A strategy
+   - Investment activities
+   - Venture arm
+
+5. IMPACT
+   - Customer additions
+   - Revenue impact
+   - Team expansion
+   - Technology gains
+
+Extract acquisition information.

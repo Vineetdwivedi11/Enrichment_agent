@@ -1,0 +1,26 @@
+{
+  "name": "content",
+  "description": "Content and learning resources",
+  "fields": {
+    "blog_exists": {
+      "type": "boolean",
+      "description": "Blog present",
+      "default": false
+    },
+    "content_types": {
+      "type": "array",
+      "description": "Content types offered",
+      "default": []
+    },
+    "academy": {
+      "type": "boolean",
+      "description": "Learning academy",
+      "default": false
+    },
+    "webinars": {
+      "type": "boolean",
+      "description": "Webinars offered",
+      "default": false
+    }
+  }
+}

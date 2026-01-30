@@ -1,0 +1,30 @@
+{
+  "name": "hiring",
+  "description": "Hiring and job openings",
+  "fields": {
+    "total_openings": {
+      "type": "integer",
+      "description": "Total number of open positions"
+    },
+    "departments_hiring": {
+      "type": "array",
+      "description": "Departments with open roles",
+      "default": []
+    },
+    "remote_available": {
+      "type": "boolean",
+      "description": "Remote positions available",
+      "default": false
+    },
+    "growth_signals": {
+      "type": "array",
+      "description": "Signs of company growth",
+      "default": []
+    },
+    "benefits": {
+      "type": "array",
+      "description": "Employee benefits mentioned",
+      "default": []
+    }
+  }
+}
