@@ -145,7 +145,7 @@ def enrich(
         try:
             website_content = scraper.scrape_website(url)
             progress.update(task, completed=True)
-            console.print(f"[green]✓[/green] Scraped website ({len(website_content.markdown)} chars)")
+            console.print(f"[green]✓[/green] Scraped website ({len(website_content.content or '')} chars)")
         except Exception as e:
             progress.update(task, completed=True)
             console.print(f"[red]✗[/red] Failed to scrape: {e}")

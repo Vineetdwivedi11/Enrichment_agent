@@ -1,0 +1,41 @@
+Extract content marketing, educational resources, and thought leadership.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. BLOG
+   - Blog exists
+   - Publishing frequency
+   - Content categories
+   - Content quality
+
+2. CONTENT TYPES
+   - Whitepapers
+   - eBooks
+   - Case studies
+   - Videos
+   - Webinars
+   - Podcasts
+
+3. EDUCATIONAL RESOURCES
+   - How-to guides
+   - Best practices
+   - Industry reports
+   - Glossaries
+
+4. ACADEMY
+   - Learning platform
+   - Courses available
+   - Certifications
+   - Free vs paid
+
+5. NEWSLETTER
+   - Newsletter exists
+   - Frequency
+   - Topics
+   - Subscriber count
+
+Extract content information.

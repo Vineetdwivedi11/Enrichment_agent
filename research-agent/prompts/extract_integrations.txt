@@ -1,0 +1,44 @@
+Extract technology integrations, partnerships, and ecosystem connections.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. NATIVE INTEGRATIONS BY CATEGORY
+   - CRM (Salesforce, HubSpot, Pipedrive)
+   - Marketing (Marketo, Mailchimp)
+   - Communication (Slack, Teams, Discord)
+   - Project Management (Asana, Jira, Trello)
+   - Analytics (Google Analytics, Mixpanel)
+   - Payments (Stripe, PayPal)
+   - Cloud Storage (Google Drive, Dropbox)
+   - E-commerce (Shopify, WooCommerce)
+
+2. INTEGRATION PLATFORM SUPPORT
+   - Zapier (number of zaps)
+   - Make.com
+   - IFTTT
+   - Native integrations count
+
+3. API CAPABILITIES
+   - REST API
+   - GraphQL
+   - Webhooks
+   - Rate limits
+   - SDK availability
+
+4. STRATEGIC PARTNERSHIPS
+   - Technology partners
+   - Channel partners
+   - Platform partnerships
+   - Co-marketing partners
+
+5. MARKETPLACE
+   - Integration marketplace
+   - Developer portal
+   - Partner program
+   - Featured partners
+
+Extract integration information according to the schema.

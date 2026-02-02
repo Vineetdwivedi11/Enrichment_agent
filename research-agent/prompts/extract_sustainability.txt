@@ -1,0 +1,45 @@
+Extract sustainability initiatives, ESG practices, and corporate responsibility.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. ENVIRONMENTAL
+   - Carbon neutrality
+   - Net zero targets
+   - Renewable energy
+   - Waste reduction
+
+2. CLIMATE COMMITMENTS
+   - Paris Agreement
+   - Science-based targets
+   - Climate action plan
+   - Carbon offsets
+
+3. SUSTAINABILITY REPORTING
+   - Annual sustainability report
+   - ESG report
+   - GRI standards
+   - Third-party verification
+
+4. CERTIFICATIONS
+   - B Corp
+   - Carbon neutral cert
+   - ISO 14001
+   - LEED certification
+
+5. SOCIAL IMPACT
+   - Community investment
+   - Volunteering programs
+   - Employee giving
+   - Social impact goals
+
+6. DEI INITIATIVES
+   - DEI strategy
+   - Diversity statistics
+   - Pay equity
+   - Inclusive hiring
+
+Extract sustainability information.

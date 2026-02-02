@@ -16,7 +16,7 @@ class FirecrawlScraper:
         if not self.api_key:
             raise ValueError("FIRECRAWL_API_KEY not set")
     
-    def scrape_url(self, url: str) -> WebsiteData:
+    def scrape_website(self, url: str) -> WebsiteData:
         """Scrape a single URL."""
         headers = {
             "Authorization": f"Bearer {self.api_key}",
@@ -40,9 +40,9 @@ class FirecrawlScraper:
         
         page_data = data.get("data", {})
         
-        return WebsiteContent(
+        return WebsiteData(
             url=url,
             title=page_data.get("metadata", {}).get("title"),
-            markdown=page_data.get("markdown", ""),
+            content=page_data.get("markdown", ""),
             metadata=page_data.get("metadata", {})
         )

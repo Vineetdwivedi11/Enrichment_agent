@@ -1,0 +1,25 @@
+{
+  "name": "support",
+  "description": "Customer support",
+  "fields": {
+    "support_channels": {
+      "type": "array",
+      "description": "Support channels",
+      "default": []
+    },
+    "availability": {
+      "type": "string",
+      "description": "Support hours"
+    },
+    "sla_available": {
+      "type": "boolean",
+      "description": "SLA offered",
+      "default": false
+    },
+    "self_service": {
+      "type": "boolean",
+      "description": "Self-service options",
+      "default": false
+    }
+  }
+}

@@ -1,0 +1,35 @@
+Extract competitive positioning, alternatives, and market landscape.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. COMPETITORS MENTIONED
+   - Direct competitors
+   - Context of mention
+   - Comparison pages
+   - Migration tools
+
+2. COMPETITIVE ADVANTAGES
+   - Claimed advantages
+   - Differentiators
+   - Unique capabilities
+
+3. MARKET POSITION
+   - Market category
+   - Position (leader, challenger)
+   - Market share claims
+
+4. ALTERNATIVES
+   - Alternative solutions
+   - Status quo alternatives
+   - DIY options mentioned
+
+5. COMPETITIVE PRICING
+   - Price vs competitors
+   - Value positioning
+   - Feature parity claims
+
+Extract competitive information.

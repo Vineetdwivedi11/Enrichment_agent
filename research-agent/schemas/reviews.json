@@ -1,0 +1,15 @@
+{
+  "name": "reviews",
+  "description": "Customer reviews",
+  "fields": {
+    "g2_rating": {
+      "type": "string"
+    },
+    "capterra_rating": {
+      "type": "string"
+    },
+    "nps": {
+      "type": "string"
+    }
+  }
+}

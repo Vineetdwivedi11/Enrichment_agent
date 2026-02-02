@@ -1,0 +1,14 @@
+{
+  "name": "sales_strategy",
+  "description": "Sales and GTM strategy",
+  "fields": {
+    "sales_model": {
+      "type": "string",
+      "description": "Sales approach"
+    },
+    "channels": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

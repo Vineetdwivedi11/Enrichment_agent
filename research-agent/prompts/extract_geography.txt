@@ -1,0 +1,41 @@
+Extract geographic presence, international operations, and market coverage.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. HEADQUARTERS
+   - HQ city and country
+   - State/province
+   - Address
+   - Time zone
+
+2. OFFICE LOCATIONS
+   - City and country
+   - Office types
+   - Team sizes at locations
+   - Opening dates
+
+3. REGIONAL PRESENCE
+   - North America
+   - Europe (countries)
+   - Asia-Pacific (countries)
+   - Latin America
+   - Middle East
+   - Africa
+
+4. MARKET COVERAGE
+   - Countries served
+   - Languages supported
+   - Currencies supported
+   - Shipping regions
+
+5. LOCALIZATION
+   - Website languages
+   - Regional domains
+   - Local payment methods
+   - Regional pricing
+
+Extract geography information.

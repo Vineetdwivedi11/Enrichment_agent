@@ -25,7 +25,7 @@ class LLMExtractor:
         """Extract structured data from content."""
         
         rendered_prompt = prompt_template.render(
-            content=content.markdown,
+            content=content.content or "",
             url=content.url,
             title=content.title or "",
             **template_vars

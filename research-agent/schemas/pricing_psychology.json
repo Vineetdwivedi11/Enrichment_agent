@@ -1,0 +1,13 @@
+{
+  "name": "pricing_psychology",
+  "description": "Pricing tactics",
+  "fields": {
+    "transparency": {
+      "type": "string"
+    },
+    "tactics": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "geography",
+  "description": "Geographic presence",
+  "fields": {
+    "headquarters": {
+      "type": "string",
+      "description": "HQ location"
+    },
+    "office_locations": {
+      "type": "array",
+      "description": "Office locations",
+      "default": []
+    },
+    "markets_served": {
+      "type": "array",
+      "description": "Countries/regions served",
+      "default": []
+    },
+    "languages_supported": {
+      "type": "array",
+      "description": "Languages",
+      "default": []
+    }
+  }
+}

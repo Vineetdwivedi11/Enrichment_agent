@@ -1,0 +1,14 @@
+{
+  "name": "data_strategy",
+  "description": "Data and analytics",
+  "fields": {
+    "analytics_features": {
+      "type": "array",
+      "default": []
+    },
+    "bi_tools": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

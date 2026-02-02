@@ -1,0 +1,39 @@
+Extract innovation initiatives, research and development activities.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. R&D PRESENCE
+   - R&D team mentioned
+   - Research lab
+   - Innovation center
+   - R&D locations
+
+2. PATENTS
+   - Patents mentioned
+   - Patent count
+   - Patent applications
+   - Key technologies patented
+
+3. INNOVATION PROGRAMS
+   - Innovation initiatives
+   - Hackathons
+   - Innovation challenges
+   - Skunkworks projects
+
+4. RESEARCH
+   - Academic papers
+   - Research blog
+   - Conference presentations
+   - Technical whitepapers
+
+5. EMERGING TECH
+   - AI/ML research
+   - Blockchain
+   - Quantum computing
+   - AR/VR initiatives
+
+Extract innovation information.

@@ -1,0 +1,49 @@
+Extract legal structure, regulatory compliance, and governance.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. LEGAL ENTITY
+   - Company legal name
+   - Entity type (Inc., LLC, Corp.)
+   - Jurisdiction
+   - Registration numbers
+
+2. REGULATORY COMPLIANCE
+   - Industry regulations
+   - Regulatory bodies
+   - Compliance statements
+
+3. FINANCIAL SERVICES
+   - Banking licenses
+   - Payment processor regulations
+   - Money transmitter licenses
+   - AML/KYC compliance
+
+4. HEALTHCARE
+   - HIPAA compliance
+   - FDA regulations
+   - Medical device regulations
+
+5. DATA PROTECTION
+   - GDPR compliance
+   - CCPA compliance
+   - Privacy policy
+   - DPO appointed
+
+6. TERMS & CONDITIONS
+   - Terms of service
+   - Acceptable use policy
+   - SLAs
+   - Refund policy
+
+7. INTELLECTUAL PROPERTY
+   - Trademarks
+   - Patents
+   - Copyright notices
+   - Licensing terms
+
+Extract legal compliance information.

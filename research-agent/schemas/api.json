@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "description": "API and developer resources",
+  "fields": {
+    "api_types": {
+      "type": "array",
+      "description": "API types (REST, GraphQL)",
+      "default": []
+    },
+    "sdks": {
+      "type": "array",
+      "description": "Available SDKs",
+      "default": []
+    },
+    "documentation_available": {
+      "type": "boolean",
+      "description": "Docs available",
+      "default": false
+    },
+    "developer_portal": {
+      "type": "boolean",
+      "description": "Developer portal exists",
+      "default": false
+    }
+  }
+}

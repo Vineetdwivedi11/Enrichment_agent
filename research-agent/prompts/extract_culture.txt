@@ -1,0 +1,41 @@
+Extract company culture, values, mission, and workplace environment.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. MISSION & VISION
+   - Mission statement
+   - Vision statement
+   - Company purpose
+   - Social mission
+
+2. CORE VALUES
+   - Value names
+   - Value descriptions
+   - Examples
+   - Priority/order
+
+3. WORK ENVIRONMENT
+   - Remote/hybrid/office
+   - Office locations
+   - Workspace descriptions
+   - Flexibility policies
+
+4. BENEFITS & PERKS
+   - Health insurance
+   - Retirement benefits
+   - Equity/stock options
+   - PTO policy
+   - Learning budget
+   - Home office budget
+
+5. DEI
+   - DEI statement
+   - Diversity statistics
+   - ERGs
+   - Inclusive hiring
+
+Extract culture information.

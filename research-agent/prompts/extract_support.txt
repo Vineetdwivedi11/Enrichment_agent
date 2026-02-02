@@ -1,0 +1,40 @@
+Extract customer support channels, service levels, and help resources.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. SUPPORT CHANNELS
+   - Email support
+   - Phone support
+   - Live chat
+   - Chatbot
+   - Ticket system
+
+2. AVAILABILITY
+   - 24/7 support
+   - Business hours
+   - Weekend support
+   - Time zones covered
+
+3. SUPPORT TIERS
+   - Free plan support
+   - Paid plan support
+   - Premium support
+   - Enterprise support
+
+4. HELP CENTER
+   - Knowledge base
+   - Article count
+   - Search functionality
+   - Categories
+
+5. TRAINING
+   - Onboarding programs
+   - Training webinars
+   - Documentation
+   - Video tutorials
+
+Extract support information.

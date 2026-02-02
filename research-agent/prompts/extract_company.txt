@@ -1,0 +1,75 @@
+You are an expert at extracting comprehensive company information from websites.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+
+Analyze the following website content and extract accurate company information:
+
+=== WEBSITE CONTENT ===
+{{ content }}
+=== END CONTENT ===
+
+EXTRACTION GUIDELINES:
+
+1. COMPANY BASICS
+   - Official company name (legal entity name)
+   - Brand names or DBAs
+   - Tagline or slogan
+   - Brief description (1-2 sentences)
+   - Detailed description (what they do, how they do it)
+   - Company type (public, private, startup, enterprise)
+
+2. INDUSTRY & SECTOR
+   - Primary industry
+   - Secondary industries
+   - Specific sector or vertical
+   - Market category
+   - Industry keywords
+
+3. FOUNDING & HISTORY
+   - Year founded
+   - Founding story or origin
+   - Key milestones
+   - Company evolution
+   - Previous names or rebrands
+
+4. LOCATION & PRESENCE
+   - Headquarters city and country
+   - Full HQ address if available
+   - Number of office locations
+   - Geographic presence
+
+5. COMPANY SIZE
+   - Number of employees (exact or range)
+   - Company size category (startup, SMB, mid-market, enterprise)
+   - Growth stage
+   - Team growth indicators
+
+6. PRODUCTS & SERVICES
+   - Main products or services
+   - Product categories
+   - Key offerings
+   - Product lines
+   - Target customers
+
+7. REVENUE & METRICS
+   - Revenue (if disclosed)
+   - Funding stage
+   - Profitability status
+   - Growth metrics mentioned
+   - Customer count
+   - User metrics
+
+8. SOCIAL MEDIA & WEB
+   - LinkedIn company page
+   - Twitter/X profile
+   - Facebook page
+   - Instagram account
+   - YouTube channel
+   - GitHub organization
+   - Other social profiles
+   - Blog URL
+
+Extract all available information according to the schema provided below.
+
+IMPORTANT: Only extract information explicitly stated on the website. Use null for missing data.

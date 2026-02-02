@@ -1,0 +1,14 @@
+{
+  "name": "partners",
+  "description": "Partner program",
+  "fields": {
+    "program_exists": {
+      "type": "boolean",
+      "default": false
+    },
+    "partner_types": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

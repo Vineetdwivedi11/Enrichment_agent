@@ -1,0 +1,14 @@
+{
+  "name": "sustainability",
+  "description": "Sustainability and ESG",
+  "fields": {
+    "initiatives": {
+      "type": "array",
+      "default": []
+    },
+    "certifications": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

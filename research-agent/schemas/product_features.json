@@ -1,0 +1,26 @@
+{
+  "name": "product_features",
+  "description": "Product features and capabilities",
+  "fields": {
+    "core_features": {
+      "type": "array",
+      "description": "Main product features",
+      "default": []
+    },
+    "unique_capabilities": {
+      "type": "array",
+      "description": "Unique selling propositions",
+      "default": []
+    },
+    "integrations": {
+      "type": "array",
+      "description": "Integration capabilities",
+      "default": []
+    },
+    "platforms_supported": {
+      "type": "array",
+      "description": "Platforms (web, mobile, desktop)",
+      "default": []
+    }
+  }
+}

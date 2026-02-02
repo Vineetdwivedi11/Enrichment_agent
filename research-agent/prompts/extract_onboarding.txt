@@ -1,0 +1,42 @@
+Extract customer onboarding processes, success programs, and retention strategies.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. ONBOARDING PROGRAM
+   - Structured program
+   - Onboarding timeline
+   - Phases/milestones
+   - Self-serve vs guided
+
+2. GETTING STARTED
+   - Quick start guides
+   - Setup checklists
+   - Video tutorials
+   - Interactive tours
+   - In-app guidance
+
+3. TRAINING
+   - Training programs
+   - Certification courses
+   - Webinar training
+   - Documentation
+   - Video library
+
+4. CUSTOMER SUCCESS
+   - CS team mentioned
+   - Dedicated CSM
+   - Proactive outreach
+   - Business reviews
+   - Health monitoring
+
+5. RETENTION TACTICS
+   - Renewal process
+   - Expansion opportunities
+   - Loyalty programs
+   - Long-term benefits
+
+Extract onboarding information.

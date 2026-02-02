@@ -1,0 +1,14 @@
+{
+  "name": "roadmap",
+  "description": "Product roadmap",
+  "fields": {
+    "public_roadmap": {
+      "type": "boolean",
+      "default": false
+    },
+    "upcoming_features": {
+      "type": "array",
+      "default": []
+    }
+  }
+}

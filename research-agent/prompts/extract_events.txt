@@ -1,0 +1,40 @@
+Extract event presence, community building, and user engagement activities.
+
+COMPANY: {{ company_name }}
+URL: {{ url }}
+CONTENT: {{ content }}
+
+EXTRACTION GUIDELINES:
+
+1. USER CONFERENCES
+   - Annual conference
+   - Conference name
+   - Location/dates
+   - Attendance size
+   - Virtual vs in-person
+
+2. COMPANY EVENTS
+   - Webinar series
+   - Virtual events
+   - Workshops
+   - Training sessions
+   - Product launches
+
+3. COMMUNITY PLATFORM
+   - Community site
+   - Platform type
+   - Member count
+   - Activity level
+
+4. USER GROUPS
+   - Local user groups
+   - Regional chapters
+   - Meetup presence
+
+5. HACKATHONS
+   - Hackathon events
+   - Prize amounts
+   - Themes
+   - Partner-sponsored
+
+Extract events information.

@@ -1,0 +1,25 @@
+{
+  "name": "security",
+  "description": "Security and compliance",
+  "fields": {
+    "certifications": {
+      "type": "array",
+      "description": "Security certifications",
+      "default": []
+    },
+    "encryption": {
+      "type": "string",
+      "description": "Encryption methods"
+    },
+    "compliance_standards": {
+      "type": "array",
+      "description": "Compliance standards met",
+      "default": []
+    },
+    "security_features": {
+      "type": "array",
+      "description": "Security features",
+      "default": []
+    }
+  }
+}

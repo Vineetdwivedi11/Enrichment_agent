@@ -1,0 +1,26 @@
+{
+  "name": "customers",
+  "description": "Customer testimonials and case studies",
+  "fields": {
+    "customer_companies": {
+      "type": "array",
+      "description": "Customer company names",
+      "default": []
+    },
+    "testimonials": {
+      "type": "array",
+      "description": "Customer quotes and feedback",
+      "default": []
+    },
+    "industries_served": {
+      "type": "array",
+      "description": "Industries/sectors served",
+      "default": []
+    },
+    "quantified_results": {
+      "type": "array",
+      "description": "Specific metrics and outcomes",
+      "default": []
+    }
+  }
+}

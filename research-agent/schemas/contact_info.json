@@ -1,0 +1,40 @@
+{
+  "name": "contact_info",
+  "description": "Contact information and communication channels",
+  "fields": {
+    "general_email": {
+      "type": "string",
+      "description": "General contact email"
+    },
+    "sales_email": {
+      "type": "string",
+      "description": "Sales team email"
+    },
+    "support_email": {
+      "type": "string",
+      "description": "Customer support email"
+    },
+    "phone_numbers": {
+      "type": "array",
+      "description": "Phone numbers",
+      "default": []
+    },
+    "addresses": {
+      "type": "array",
+      "description": "Physical office addresses",
+      "default": []
+    },
+    "linkedin_url": {
+      "type": "string",
+      "description": "LinkedIn profile URL"
+    },
+    "twitter_url": {
+      "type": "string",
+      "description": "Twitter/X profile URL"
+    },
+    "github_url": {
+      "type": "string",
+      "description": "GitHub organization URL"
+    }
+  }
+}

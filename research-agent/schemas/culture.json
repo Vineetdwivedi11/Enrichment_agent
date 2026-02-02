@@ -1,0 +1,29 @@
+{
+  "name": "culture",
+  "description": "Company culture and values",
+  "fields": {
+    "mission": {
+      "type": "string",
+      "description": "Mission statement"
+    },
+    "values": {
+      "type": "array",
+      "description": "Core company values",
+      "default": []
+    },
+    "work_environment": {
+      "type": "string",
+      "description": "Work environment type"
+    },
+    "benefits": {
+      "type": "array",
+      "description": "Employee benefits",
+      "default": []
+    },
+    "dei_initiatives": {
+      "type": "array",
+      "description": "DEI programs",
+      "default": []
+    }
+  }
+}
